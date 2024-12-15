@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 30px;
+        }
+        .section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .section-content {
+            text-align: center;
+            margin-top: auto;
+        }
+        .section-content h2 {
+            font-weight: bold;
+        }
+        .section-content p {
+            font-size: 1.2rem;
+        }
+        .paginator {
+            margin-top: 20px;
+        }
+        .education-title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-weight: bold;
+        }
+        .year-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .project-card {
+            margin-bottom: 20px;
+        }
+        .project-card img {
+            max-height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <h4 class="mb-0">Stephen <span class="text-primary">Costelloe</span></h4>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle" aria-controls="navbar-collapse-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a> <!-- Added Skills Section -->
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ms-auto d-none d-lg-block">
+                   <li class="nav-item"> <a href="#contact">Contact</a> </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <section id="home" class="section bg-gray">
+        <div class="container">
+            <div class="row gy-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="home-intro text-center text-lg-start">
+                        <h1>4th Year Computer Science Student</h1>
+                        <h2>Based in Tallaght, Dublin.</h2>
+
+                        <div class="social-icons">
+                            <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <a href="#about" class="colored-btn mt-1">About Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0">
+                    <div class="home-image text-center">
+                        <img src="img/WIN_20241120_18_23_41_Pro.jpg" alt="Stephen Costelloe">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <div class="row gy-5 align-items-center">
+                <div class="col-12">
+                    <div class="about-content text-center">
+                        <p>Experienced and motivated software development student with a strong foundation in Java, Python, HTML, and Django. Proficient in object-oriented programming and data structures, with a track record of collaborating effectively on team projects, including website development. A quick learner who eagerly embraces challenges to further advance in the software development field and excel in my career.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section bg-gray">
+        <div class="container">
+            <h1>EDUCATION</h1>
+            <h2> Technological University Dublin– Tallaght</h2>
+            <h2 class=".font-monospace fw-bold">BSc in Computing with Software Development(Level8)</h2>
+              <br><br><br><br><br><br><br>
+            <div class="row gy-5 align-items-center">
+                <div class="col-12">
+                    <div class="section-content">
+                        <div class="education-title">Education and Grades</div>
+                        
+                        <div id="year-4" class="year-content">
+                            <h3>4th Year</h3>
+                            <p>GPA: 3.8</p>
+                            <ul>
+                                <li>Advanced Software Development (A)</li>
+                                <li>Network Security (A-)</li>
+                                <li>Machine Learning (B+)</li>
+                                <li>Cloud Computing (A)</li>
+                                <li>Data Science (B)</li>
+                                <li>Capstone Project (A-)</li>
+                            </ul>
+                        </div>
+                        <div id="year-3" class="year-content d-none">
+                            <h3>3rd Year</h3>
+                            <p>GPA: 3.6</p>
+                            <ul>
+                                <li>Software Engineering (B+)</li>
+                                <li>Database Systems (A-)</li>
+                                <li>Operating Systems (B)</li>
+                                <li>Web Development (A)</li>
+                                <li>Artificial Intelligence (B+)</li>
+                                <li>Mobile App Development (A-)</li>
+                            </ul>
+                        </div>
+                        <div id="year-2" class="year-content d-none">
+                            <h3>2nd Year</h3>
+                            <p>GPA: 3.4</p>
+                            <ul>
+                                <li>Software Development 3 (B-)</li>
+                                <li>Routing and Switching (B)</li>
+                                <li>Discrete Mathematics 2 (B+)</li>
+                                <li>Software Development (B-)</li>
+                                <li>Second Year Project (B)</li>
+                                <li>Data Administration And Analysis (C)</li>
+                                <li>Information Security (B-)</li>
+                                <li>Management Science (B+)</li>
+                            </ul>
+                        </div>
+                        <div id="year-1" class="year-content d-none">
+                            <h3>1st Year</h3>
+                            <p>GPA: 3.2</p>
+                            <ul>
+                                <li>Software Development 1 (C+)</li>
+                                <li>Discrete Mathematics 1 (B+)</li>
+                                <li>Visual Design + User Experience (C+)</li>
+                                <li>Software Development 2 (B-)</li>
+                                <li>Database Fundamentals (B+)</li>
+                            </ul>
+                        </div>
+                        <div class="paginator">
+                            <button class="btn btn-success" onclick="showYear('year-4')">4th Year</button>
+                            <button class="btn btn-success" onclick="showYear('year-3')">3rd Year</button>
+                            <button class="btn btn-success" onclick="showYear('year-2')">2nd Year</button>
+                            <button class="btn btn-success" onclick="showYear('year-1')">1st Year</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h1 class=" mb-4">PROJECTS</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card project-card">
+                        <img src="img/WIN_20241120_18_23_41_Pro.jpg" class="card-img-top" alt="E-Commerce Website">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Website</h5>
+                            <p class="card-text">A team project involving the development of a traditional multi-page web application using Django Framework, where users can purchase items, create orders uniquely mapped to their purchases.</p>
+                            <ul>
+                                <li>User-friendly navigation</li>
+                                <li>Search functionality</li>
+                                <li>Basket creation</li>
+                                <li>Stripe payment integration</li>
+                                <li>Review functionality</li>
+                            </ul>
+                            <p><strong>Technological Stack:</strong> Django, CSS, Bootstrap, Stripe</p>
+                            <a href="https://github.com/dzmyctec" class="btn btn-success" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card project-card">
+                        <img src="img/Screenshot 2024-12-11 193603.png" class="card-img-top" alt="Basic Information Website">
+                        <div class="card-body">
+                            <h5 class="card-title">Premier League API Blazor</h5>
+                            <p class="card-text">This System is a Blazor We App that displays football player statistics and League table standings. The users can select what league they would like to view player and league statistics from a drop menu. T</p>
+                            <ul>
+                                <li>Easy navigation between pages</li>
+                                <li>Displays current league standings </li>
+                                <li>Sort function by assists</li>
+                                <li>sorts by league </li>
+                                <li>User Friendly UI</li>
+                            </ul>
+                            <p><strong>Technological Stack:</strong> Blazor, c#, .NET</p>
+                            <a href="https://github.com/dzmyctec" class="btn btn-success" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <!-- Title and Dynamic Skill Display -->
+            <h1 class="text-center mb-4">Skills</h1>
+            <div class="text-center mb-4">
+                <h2 id="dynamic-skill" class="text-primary">Loading skill...</h2>
+            </div>
+    
+            <!-- Skills Grid -->
+            <div class="row">
+                <!-- IT Skills -->
+                <div class="col-md-6">
+                    <h2 class="text-center">IT Skills</h2>
+                    <ul>
+                        <li><strong>Software Design and Development:</strong> Familiar with Python and Java for software development. Skilled in designing and developing websites using Bootstrap, JavaScript, CSS, and HTML5. Currently learning C++.</li>
+                        <li><strong>Database:</strong> Proficient in writing SQL queries, particularly with Oracle Apex. Able to design and create database schemas based on normalized and Entity-Relationship Diagram designs. Familiar with PL/SQL and currently learning NoSQL.</li>
+                        <li><strong>Data Analysis:</strong> Proficient in data analysis using tools like Excel and Python. Wrote code in Python to extract, replace, and manipulate data. Also familiar with pandas and numpy.</li>
+                    </ul>
+                </div>
+    
+                <!-- General Skills -->
+                <div class="col-md-6">
+                    <h2 class="text-center">General Skills</h2>
+                    <ul>
+                        <li><strong>Leadership Skills:</strong> Led a second-year project by planning, goal-setting, and assessing team members’ strengths and weaknesses to ensure effective utilization of skills. Helped train new employees at Aldi Distribution Center, SuperValu, and Uniphar Group.</li>
+                        <li><strong>Goal-Oriented:</strong> Demonstrated ability to set and achieve objectives efficiently, both individually and as part of a team.</li>
+                        <li><strong>Teamwork:</strong> Worked on various group projects across different modules and assisted in completing orders as part of a team in work environments.</li>
+                        <li><strong>Customer Service:</strong> Skilled at solving customer queries and issues effectively.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h1 class="text-center mb-4">Contact</h1>
+            <div class="section-content">
+                <p><strong>Email:</strong> x00188263@mytudublin.ie</p>
+                <p><strong>Phone:</strong> (085) 123 4567</p>
+                <div class="contact-icons">
+                    <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- jQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            const skills = [
+                "Proficient in Python and Java",
+                "Experienced in SQL and Oracle Apex",
+                "Familiar with Bootstrap and JavaScript",
+                "Excellent Leadership and Teamwork Skills",
+                "Goal-Oriented and Customer-Focused"
+            ];
+    
+            let skillIndex = 0;
+            function displayNextSkill() {
+                $("#dynamic-skill").fadeOut(function() {
+                    $(this).text(skills[skillIndex]).fadeIn();
+                });
+                skillIndex = (skillIndex + 1) % skills.length;
+            }
+    
+            setInterval(displayNextSkill, 2000);
+            displayNextSkill();
+        });
+    </script>
+    
+</main>
+
+<!-- Bootstrap JavaScript Bundle with Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script>
+    function showYear(yearId) {
+        const years = document.querySelectorAll('.year-content');
+        years.forEach(year => {
+            year.classList.add('d-none');
+        });
+        document.getElementById(yearId).classList.remove('d-none');
+    }
+</script>
+</body>
+</html>

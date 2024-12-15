@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Features</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <h4 class="mb-0">Bootstrap Features</h4>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section bg-light">
+            <div class="container">
+                <div class="section-content">
+                    <h1>Bootstrap Features Used on This Page</h1>
+                    <p>Below are the Bootstrap features implemented in the webpage:</p>
+
+                    <div class="feature-list">
+                        <h2>1. Grid System:</h2>
+                        <ul>
+                            <li>Responsive Grid: The page uses Bootstrap's grid system with classes like `col-lg-6`, `col-md-6` to organize content for different screen sizes.</li>
+                            <li>Example: Inside the `#projects` section, the project cards are placed in columns using `<div class="col-md-6">`.</li>
+                        </ul>
+
+                        <h2>2. Navbar:</h2>
+                        <ul>
+                            <li>Responsive Navigation: A collapsible navigation bar is created using `navbar`, `navbar-toggler`, and `navbar-collapse` classes, making it mobile-friendly.</li>
+                            <li>Example: The navigation bar in the header adapts to smaller screen sizes by collapsing into a hamburger menu.</li>
+                        </ul>
+
+                        <h2>3. Buttons:</h2>
+                        <ul>
+                            <li>Styled Buttons: Bootstrap button classes like `btn btn-success` are used to style buttons and links.</li>
+                            <li>Example: Buttons in the education section to select the year or GitHub links are styled with `btn btn-success`.</li>
+                        </ul>
+
+                        <h2>4. Typography:</h2>
+                        <ul>
+                            <li>Text Alignment and Font Styling: Classes like `text-center`, `text-primary`, and `font-weight-bold` are used for aligning text and styling headers.</li>
+                            <li>Example: The text in the `#projects` section and the dynamic skill display uses these typography classes.</li>
+                        </ul>
+
+                        <h2>5. Spacing and Padding:</h2>
+                        <ul>
+                            <li>Margin and Padding Classes: Classes like `mt-1`, `mb-4`, `gy-5`, `pt-4`, `pt-lg-0` are used for controlling spacing between elements.</li>
+                            <li>Example: Elements in the sections have margins and paddings for proper spacing.</li>
+                        </ul>
+
+                        <h2>6. Cards:</h2>
+                        <ul>
+                            <li>Card Component: Bootstrap's card component is used to display content like project descriptions in a structured format with images and text.</li>
+                            <li>Example: The project cards in the `#projects` section use `<div class="card">` for styling.</li>
+                        </ul>
+
+                        <h2>7. Icons:</h2>
+                        <ul>
+                            <li>Font Awesome Icons: Social media icons such as Twitter, LinkedIn, and Instagram are added using Font Awesome icons.</li>
+                            <li>Example: Icons are used in the navigation bar and contact section for easy access to social media.</li>
+                        </ul>
+
+                        <h2>8. Collapse:</h2>
+                        <ul>
+                            <li>Collapsible Content: The navbar menu collapses into a hamburger menu on smaller screens using the `collapse` component.</li>
+                            <li>Example: The `navbar-collapse` class is used to hide and show the menu items on smaller devices.</li>
+                        </ul>
+
+                        <h2>9. Modal or Dynamic Content with jQuery:</h2>
+                        <ul>
+                            <li>Dynamic Skill Change: The dynamic skills section uses jQuery to change the displayed skill every few seconds.</li>
+                            <li>Example: The skill set in the `#skills` section is updated dynamically with `fadeOut` and `fadeIn` effects from jQuery.</li>
+                        </ul>
+
+                        <h2>10. Utilities:</h2>
+                        <ul>
+                            <li>Text and Background Color Utilities: The `bg-light`, `bg-gray`, and `text-center` classes are used for controlling background and text color.</li>
+                            <li>Visibility Utility: The `.d-none` class is used to hide and show the year sections in the Education section.</li>
+                        </ul>
+
+                        <h2>11. Responsive Images:</h2>
+                        <ul>
+                            <li>Responsive Images: Although not explicitly in the code, the `img-fluid` class can be used to make images responsive, allowing them to scale according to the screen size.</li>
+                            <li>Example: The images in the `#home` and `#projects` sections could be made responsive by adding `img-fluid` to the `<img>` tags.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
